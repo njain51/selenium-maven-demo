@@ -26,10 +26,10 @@ public class LocatorDemo {
         System.out.println(driver.getTitle());
 
         // by id example:
-        driver.findElement(By.id("email")).sendKeys("dummy@email.com");
+        driver.findElement(By.id("email")).sendKeys("dummy@email.com");  // write email to email field
 
         // by name example
-        driver.findElement(By.name("pass")).sendKeys("password123");
+        driver.findElement(By.name("pass")).sendKeys("password123");// write password  to password   field
         Thread.sleep(4000);
 
 
@@ -44,6 +44,7 @@ public class LocatorDemo {
         Thread.sleep(4000);
         System.out.println(driver.getTitle());
         driver.quit();
+
 
 
 
